@@ -1,1 +1,12 @@
+#include<stdio.h>    
+#include<stdlib.h>    
+    
+int main(){    
+   int a;      
+ while( scanf("%d",&a)!=EOF ) {    
+ printf("%c\n",a);  
+ }   
+return 0;   
+ }  
 
+https://e-tutor.itsa.org.tw/e-Tutor/mod/programming/view.php?id=512

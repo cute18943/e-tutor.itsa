@@ -1,1 +1,23 @@
+#include<stdio.h>   
+#include<stdlib.h>   
+   
+int main(){   
+     
+   int a=0;   
+        
+while( scanf("%d",&a)!=EOF ) {   
+   if(a>=3 && a<=5){  
+    printf("Spring\n");   
+   }else if(a>=6 && a<=8){  
+    printf("Summer\n");   
+   }else if(a>=9 && a<=11){  
+    printf("Autumn\n");   
+   }else if(a==12 || a<=2){  
+    printf("Winter\n");   
+   }  
+ }   
+    system("pause");   
+   return 0;   
+}  
 
+https://e-tutor.itsa.org.tw/e-Tutor/mod/programming/view.php?id=30754

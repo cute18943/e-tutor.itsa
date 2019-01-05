@@ -1,1 +1,24 @@
+#include<stdio.h>  
+#include<stdlib.h>  
+  
+int main(){  
+    
+   int a,b=0;  
+   double c=0; 
+   double d=0; 
+       
+while( scanf("%d%d",&a,&b)!=EOF ) {  
+  if(b==1){ 
+     c=(a-80)*0.7; 
+      printf("%.1lf\n",c); 
+  }else if(b==2){ 
+     d=(a-70)*0.6; 
+      printf("%.1lf\n",d); 
+  } 
+   
+ }  
+    system("pause");  
+   return 0;  
+}  
 
+https://e-tutor.itsa.org.tw/e-Tutor/mod/programming/view.php?id=30792

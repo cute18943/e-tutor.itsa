@@ -1,1 +1,53 @@
+#include<stdio.h>   
+#include<stdlib.h>   
+   
+int main(){   
+     
+   int a,b;   
+  
+while( scanf("%d %d",&a ,&b)!=EOF ) {   
+   if(a==23 || a==0 && b<60){   
+        printf("rat\n");   
+  }   
+  else if(a==1|| a==2&& b<60)   
+   {   
+      printf("ox\n");   
+   }   
+  else if(a==3|| a==4&& b<60)   
+   {   
+      printf("tiger\n");   
+    }else if(a==5|| a==6&& b<60)   
+   {   
+      printf("rabbit\n");   
+   }else if(a==7|| a==8&& b<60)   
+   {   
+      printf("dragon\n");   
+   }else if(a==9|| a==10&& b<60)   
+   {   
+      printf("snake\n");   
+    }else if(a==11|| a==12&& b<60)   
+   {   
+      printf("horse\n");   
+    }else if(a==13|| a==14&& b<60)   
+   {   
+      printf("sheep\n");   
+    }else if(a==15|| a==16&& b<60)   
+   {   
+      printf("monkey\n");   
+   }else if(a==17|| a==18&& b<60)   
+     
+  {   
+      printf("rooster\n");   
+  }else if(a==19|| a==20&& b<60)   
+  {   
+      printf("dog\n");   
+  }else if(a==21|| a==22 && b<60)   
+  {   
+      printf("pig\n");   
+  }   
+     
+}   
+    return 0;   
+}  
 
+https://e-tutor.itsa.org.tw/e-Tutor/mod/programming/view.php?id=3678

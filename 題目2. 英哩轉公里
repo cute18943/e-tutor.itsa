@@ -1,1 +1,18 @@
+#include<stdio.h> 
+#include<stdlib.h> 
+ 
+int main(){ 
+   
+   int a=0; 
+   double b=1.6; 
+    double c=0; 
+      
+while( scanf("%d",&a)!=EOF ) { 
+    c=a*b; 
+  printf("%.1lf\n",c); 
+ } 
+    system("pause"); 
+   return 0; 
+}  
 
+https://e-tutor.itsa.org.tw/e-Tutor/mod/programming/view.php?id=30747

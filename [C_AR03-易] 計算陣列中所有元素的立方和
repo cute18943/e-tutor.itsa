@@ -1,1 +1,21 @@
+#include<stdio.h>   
+#include<stdlib.h>   
+#include<math.h>  
+  
+int main(){   
+   int a,b,c,d,e,f;  
+   int g,h,i,j,k,m,n;   
+while( scanf("%d%d%d%d%d%d",&a,&b,&c,&d,&e,&f)!=EOF ) {   
+g=pow(a,3);  
+h=pow(b,3);  
+i=pow(c,3);  
+j=pow(d,3);  
+k=pow(e,3);  
+m=pow(f,3);  
+n=g+h+i+j+k+m;  
+printf("%d\n",n);  
+ }   
+  return 0;   
+}  
 
+https://e-tutor.itsa.org.tw/e-Tutor/mod/programming/view.php?id=1291
